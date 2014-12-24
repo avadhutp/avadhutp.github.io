@@ -9,7 +9,7 @@ tags: []
 image:
   feature:
 ---
-<p>When I was in school once, I told my aunt that I did not want to eat food as I was tired.</p>
-<p>She yelled at me.</p>
-<p>I ate.</p>
-<p>Remembered for no reason.</p>
+When I was in school once, I told my aunt that I did not want to eat food as I was tired.
+She yelled at me.
+I ate.
+Remembered for no reason.
