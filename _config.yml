@@ -1,16 +1,16 @@
 # Site wide configuration
 
-title: Site Title
+title: Running Panda
 locale: en_US
-description: Describe your website here.
-logo: site-logo.png
+description: I run. I eat. I sleep
+logo: logo-panda.jpg
 search: true
 url: 
 
 
 # Jekyll configuration
 
-permalink:   /:categories/:title/
+permalink:   /:title/
 markdown:    kramdown
 highlighter: pygments
 sass:
@@ -32,22 +32,13 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: Avadhut Phatarpekar
   avatar: bio-photo.jpg
-  email: you@email.com
+  email: avadhut.p@gmail.com
   disqus-shortname:
-  twitter: #username
-  facebook: #username
-  github: #username
+  twitter: avadhutp
+  facebook: avadhut.phatarpekar
+  github: avadhutp
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
-  instagram: #username
-  flickr: #username
-  tumblr: #username
-  google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot: 
-  bing-verify:
+  instagram: avadhutp
