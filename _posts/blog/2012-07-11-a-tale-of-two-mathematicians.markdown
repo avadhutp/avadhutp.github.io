@@ -1,6 +1,13 @@
 ---
 layout: post
 title: A tale of two mathematicians
+modified:
+categories: blog
+excerpt:
+tags: []
+image:
+  feature:
+date: 2014-08-08T15:39:55-04:00
 ---
 **Fibonacci:** Leonardo Pisano was a 12th century Italian mathematician. Fibonacci was his Latin name. His father was a merchant from Pisa, Italy, and Leonardo would travel with his father to Arab ports and other trading locations. He learnt of several mathematical concepts and their applications on his travels and went on to publish them in his book _Liber Abaci_. The book, thus, introduced Indian-Arabic (0-9) numerals to the Western civilization.
 

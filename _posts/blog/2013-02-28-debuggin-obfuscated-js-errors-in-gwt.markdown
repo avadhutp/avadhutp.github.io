@@ -1,6 +1,13 @@
 ---
 layout: post
 title: Debugging obfuscated JS errors in GWT (<=2.5.1)
+modified:
+categories: blog
+excerpt:
+tags: []
+image:
+  feature:
+date: 2014-08-08T15:39:55-04:00
 ---
 Ever had one of these when working with GWT? `uncaught exception: com.google.gwt.core.client.JavaScriptException: (TypeError)`
 

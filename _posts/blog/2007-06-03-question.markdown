@@ -1,0 +1,13 @@
+---
+layout: post
+title: Question
+modified:
+categories: blog
+excerpt:
+tags: []
+image:
+  feature:
+---
+Ever tried coding a website in Drupal on a PIII PC with only 128 MB RAM and the following applications running: Dreamweaver 8, Photoshop 7, WS FTP, Sygate Personal Firewall, Apache, MySQL Server 5.0, and Winamp 2.7?
+
+Bonus question: Who in hell's name came up with the abomination that is fat-free ice cream?

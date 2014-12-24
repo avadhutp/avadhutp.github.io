@@ -1,0 +1,19 @@
+---
+layout: post
+title: PMP
+modified:
+categories: blog
+excerpt:
+tags: []
+image:
+  feature:
+---
+A PMP is a project management plan, and I consider it as important to a software project as earbuds are to a fish.
+When I came in on Monday hoping to get my hands dirty with MySQL, Drupal, and some good old-fashioned PHP, this is what my CIO expects me to do—prepare a freaking PMP!
+What does it do? Make people run here and there achieving absolutely nothing. Seriously!
+
+Preparing it made me feel like I was back in college preparing UML and use case-diagrams without really knowing their usefulness—the so called essential documentation of a software project. My stay in college hadn't been a particularly efficient learning experience. When I graduated, I had learnt, from sitting for lectures, only as much in my five years of college as what smart kindergarten toddlers learn in one year. My “research” work was not dissimilar [1] to the kind of analysis that I imagine idle secretaries indulge in when they make estimations about the love lives of their bosses based on the amount of paper they are shredding. That’s exactly how I felt preparing the damned PMP.
+Anyhow, the project’s gone well. The themeing is done. I will put up some pics of the interface on this blog as soon as I get back to work on Monday.
+
+[1] either in spirit or complexity
+P.S: <a href="http://frayednerveendings.wordpress.com/2007/04/24/blogging-frequency-of-the-unreasonable-man/">She</a> literally forced me into writing this.

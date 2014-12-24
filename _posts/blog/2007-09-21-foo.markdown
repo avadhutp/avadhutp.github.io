@@ -1,0 +1,15 @@
+---
+layout: post
+title: Foo
+modified:
+categories: blog
+excerpt:
+tags: []
+image:
+  feature:
+---
+-My dinner last night: Masala Maggi with atleast 75 grams of butter on top, 5 cubes of cheese, and Maggi Hot and Sweet Tomato Chilli Sauce It's Different®—I call it special effects :).
+
+-Three years ago I was taking calls in a BPO at 4 am. Two years ago I was listening to calls. A year ago I was unemployed. Yesterday, my CEO offered me copious amounts of money to keep me from quitting to join a US-based startup.[1]
+
+[1] Read somewhere that when you pursue things that truly excite you, they would reward in more important ways, like happiness. So true.

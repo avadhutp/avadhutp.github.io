@@ -1,0 +1,19 @@
+---
+layout: post
+title: Archives
+modified:
+categories: blog
+excerpt:
+tags: []
+image:
+  feature:
+---
+<?php
+	$rs = db_query("select distinct(date_format(from_unixtime(created),'%Y')) year from {node} order by created desc");
+	foreach($rs as $rec) {
+		$years[] = array("data" => l($rec->year,"archives/" . $rec->year));
+	}
+?>
+<div class="archivesBlock">
+<?php print theme_item_list(array("items"=>$years,"title"=>null,"type"=>"ul","attributes"=>array())); ?>
+</div>
