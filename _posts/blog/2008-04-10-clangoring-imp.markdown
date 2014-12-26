@@ -28,6 +28,6 @@ And she thought that my favorite game was mudpie-mudpie.
 
 Then she was gone.
 
-Now, she's finally <a title="The imp" href="http://jumbleberrypie.wordpress.com/" target="_blank">here</a>.
+Now, she's finally [here](http://jumbleberrypie.wordpress.com/).
 
 :)

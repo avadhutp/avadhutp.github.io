@@ -16,4 +16,5 @@ Preparing it made me feel like I was back in college preparing UML and use case-
 Anyhow, the project’s gone well. The themeing is done. I will put up some pics of the interface on this blog as soon as I get back to work on Monday.
 
 [1] either in spirit or complexity
-P.S: <a href="http://frayednerveendings.wordpress.com/2007/04/24/blogging-frequency-of-the-unreasonable-man/">She</a> literally forced me into writing this.
+
+P.S: [She](http://frayednerveendings.wordpress.com/2007/04/24/blogging-frequency-of-the-unreasonable-man/) literally forced me into writing this.

@@ -12,6 +12,6 @@ What has Mozilla Corporation's chief contribution been? The Firefox browser? Or 
 
 Mozilla's model proved that Open Source not only works but works extremely well when managed properly.
 
-<a target="_blank" href="http://www.mckinseyquarterly.com/Strategy/Innovation/Succeeding_at_open-source_innovation__An_interview_with_Mozillas_Mitchell_Baker_2098#foot2">McKinsey Quarterly recently interviewed Mitchell Baker</a>, CEO, Mozilla Corporation. A must read, despite the compulsory registration. She sums it up the best when she says
+[McKinsey Quarterly recently interviewed Mitchell Baker](http://www.mckinseyquarterly.com/Strategy/Innovation/Succeeding_at_open-source_innovation__An_interview_with_Mozillas_Mitchell_Baker_2098#foot2), CEO, Mozilla Corporation. A must read, despite the compulsory registration. She sums it up the best when she says
 <blockquote>Turning people loose is really valuable. You have to figure out what space and what range, but you get a lot more than you would expect out of them, because they’re not you.</blockquote>
-PS: A discussion on the same theme spawned a large number of really, really, huge comments some time back. <a href="http://sentimentalminions.wordpress.com/2007/04/28/pmp/">Remember</a>?
+PS: A discussion on the same theme spawned a large number of really, really, huge comments some time back. [Remember](http://sentimentalminions.wordpress.com/2007/04/28/pmp/)?

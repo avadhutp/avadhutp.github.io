@@ -10,9 +10,9 @@ image:
 ---
 Most of my development happens in Drupal, PHP, jQuery, MySQL, PostGreSQL, and all good things associated. Until recently, I used to swear by separate PHP and Apache installations. But managing updates for everything involved—Apache, PHP, jQuery, Drupal—separately had become a real bitch: the innumerable backups, migrations, and restorations.
 
-So when Drupal 6 was released, I was thrilled with the new <strong><em>Update </em></strong>module. And it was time I found a server-PHP stack that could support production-scale deployments. Enter ZendCore. The installer not only allows you to use Zend's own PHP (with FastCGI) and Apache Web Server (ZendCoreApache) but also plays nice with your existing installations. Buy a subscription with Zend, and they will take care of updating Apache and PHP for you too. It also allows you to download and install database servers of your choice—MySQL, DB2, etc.
+So when Drupal 6 was released, I was thrilled with the new **_Update _**module. And it was time I found a server-PHP stack that could support production-scale deployments. Enter ZendCore. The installer not only allows you to use Zend's own PHP (with FastCGI) and Apache Web Server (ZendCoreApache) but also plays nice with your existing installations. Buy a subscription with Zend, and they will take care of updating Apache and PHP for you too. It also allows you to download and install database servers of your choice—MySQL, DB2, etc.
 
-ZendCore also comes bundled with Zend Framework, which provides an extremely good set of PHP functionalities. I have only gotten as far as <strong><em>Lucene search</em></strong>, but things look very promising.
+ZendCore also comes bundled with Zend Framework, which provides an extremely good set of PHP functionalities. I have only gotten as far as **_Lucene search_**, but things look very promising.
 
 Drupal runs like a peach on this stack, which is most important for me at the moment, and it supports my other custom Web-apps developed using the Zend framework.
 
@@ -24,13 +24,12 @@ However, I still could not get myself to switch to Zend Studio. Or maybe I jus
 
 The thing I like the most about Zend is that none of the components are prone to lock-ins. Use whichever tool you want, it will still behave with the etiquette expected out of good-natured software. Want to use ZendCore's PHP with your own Apache deployment? It's OK. ZendCore won't hold any grudges. Some other people do need to take a lesson from here. Can you hear me Microsoft? Just because I use Exchange does not mean that I would want to use Office Communication Server. Let me connect to other software!
 
-So, the list would proceed as follows:
-<ul>
-	<li>Webserver-PHP stack: ZendCore</li>
-	<li>PHP frameworks: Zend Framework, Drupal (I use it as one :))</li>
-	<li>Javascript: jQuery, Prototype</li>
-	<li>IDE: Komodo</li>
-	<li>Database server: MySQL, MSSQL, PostGreSQL</li>
-	<li>Mail server: Apache James</li>
-	<li>OS: Does it even matter?</li>
-</ul>
+So, the list would proceed as follows: 
+
+* Webserver-PHP stack: ZendCore
+* PHP frameworks: Zend Framework, Drupal (I use it as one :))
+* Javascript: jQuery, Prototype
+* IDE: Komodo
+* Database server: MySQL, MSSQL, PostGreSQL
+* Mail server: Apache James
+* OS: Does it even matter?

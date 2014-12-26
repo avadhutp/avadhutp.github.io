@@ -8,9 +8,9 @@ tags: []
 image:
   feature:
 ---
-Am almost done reading <a href="http://en.wikipedia.org/wiki/It_%28novel%29" title="It's Wikipedia link">IT</a> by Stephen King.
+Am almost done reading [IT](http://en.wikipedia.org/wiki/It_%28novel%29) by Stephen King.
 
-<a href="http://sentimentalminions.files.wordpress.com/2008/01/it.gif" title="it.gif"><img src="http://sentimentalminions.files.wordpress.com/2008/01/it.thumbnail.gif" alt="it.gif" /></a>
+![IT](http://sentimentalminions.files.wordpress.com/2008/01/it.gif)
 
-<em>Pencil on paper</em>
+_Pencil on paper_
 <blockquote>He thrusts his fists into the post, and still insists he sees a ghost.</blockquote>

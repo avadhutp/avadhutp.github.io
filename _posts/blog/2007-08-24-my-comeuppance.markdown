@@ -8,8 +8,10 @@ tags: []
 image:
   feature:
 ---
-First, a <em><strong>question</strong></em><strong>:</strong> How's this for a pick-up line?
-<blockquote>O Watery-eyed woman, please tell me your good name.</blockquote>
+First, a _**question**_**:** How's this for a pick-up line?
+
+> O Watery-eyed woman, please tell me your good name.
+
 Moving on to more important matters now: Past few days of inactivity on the blog have actually been due to work. More precisely, Drupal. No no. Don't get me wrong. Not the bad kind of work. The good kind of work. The kind that has you scrambling to your desk every morning to finish what you left incomplete the night before, but with a smile on your face. :-)
 
 Now, I am not going to delve into the inherent goodness of open source and how it is a great big boon to mankind and will one day save us from extinction. But it is, and it will!

@@ -10,45 +10,40 @@ image:
 ---
 If you are an organization with presence in China, you'd know that invoicing norms there are pretty strict. Invoices generated, whether online or manual, need to follow a set standard. 
 
-One of the problems I faced with developing a part of our application that generates invoices for our Chinese clients is the number to words conversion. In China, the invoices, in addition to the actual figure on the invoice, should also have it mentioned in words. For example, USD 123 would become <em>One hundred and twenty-three</em>. Except, the text has to be Chinese.
+One of the problems I faced with developing a part of our application that generates invoices for our Chinese clients is the number to words conversion. In China, the invoices, in addition to the actual figure on the invoice, should also have it mentioned in words. For example, USD 123 would become _One hundred and twenty-three_. Except, the text has to be Chinese.
 
 I hunted a lot for readymade classes/scripts that would do this in a Chinese script or a variant thereof. But I did not find anything based in PHP. We did, though, find something in the CPAN Perl libraries that seemed pretty workable. And we decided to run with it. So, below, I've outline the process, script, and the function that will allow you to achieve this (I will be assuming that the target system is Ubuntu Server 10.04 LTS).
 
 Step I: Install the lib lingua package
-
-<bash>
+{% highlight bash %}
 sudo apt-get install liblingua-*
-</bash>
+{% endhighlight %}
 
 Step II: Install CPAN 
-
-<bash>
+{% highlight bash %}
 sudo perl -MCPAN -e shell
-</bash>
+{% endhighlight %}
 
 Step III: Inside the CPAN shell, install YAML
-
-<bash>
+{% highlight bash %}
 install YAML
-</bash>
+{% endhighlight %}
 
 Step IV: Upgrade aptitude repositories once
-
-<bash>
+{% highlight bash %}
 o conf prerequisites_policy follow
 o conf commit
 upgrade
-</bash>
+{% endhighlight %}
 
 Step V: Install lingua libraries for numbers
-
-<bash>
+{% highlight bash %}
 install Lingua::Any::Numbers
-</bash>
+{% endhighlight %}
 
 Step VI: Now create a Perl module file. For the purpose of this example, let's call it ChineseNumbersU8.pm. The code has been written by Erik Peterson and you can download it from http://www.mandarintools.com/numbers.html. In case you don't find it there, though, you can paste the following code in the file
 
-<perl>
+{% highlight perl %}
 # -*- coding: utf-8; -*-
 
 package ChineseNumbers;
@@ -779,17 +774,15 @@ sub substru8 {
 END { }
 
 1;
-</perl>
+{% endhighlight %}
 
 Step VII: Copy this file to /usr/lib/perl5
-
-<bash>
+{% highlight bash %}
 sudo cp ChineseNumbersU8.pm /usr/lib/perl5
-</bash>
+{% endhighlight %}
 
 Step VIII: Create another perl file, wherever your PHP script is going to reside, called chineseNumber.pl. Write the following code in it
-
-<perl>
+{% highlight perl %}
 #!/usr/bin/env perl
 
 use ChineseNumbersU8;
@@ -798,11 +791,11 @@ GetOptions( 'number=s' => \$number ,'format=s' => \$format);
 
 
 print ChineseNumbers->EnglishToChineseNumber($number, $format);
-</perl>
+{% endhighlight %}
 
 Step IX: In your PHP script, you can use a function as follows:
 
-<php>
+{% highlight php %}
 /**
  * Returns the chinese string of the number passed
  * @param type $number
@@ -819,4 +812,4 @@ function getChineseNumber($number, $format = 'simp') {
     }
     return false;
 }
-</php>
+{% endhighlight %}

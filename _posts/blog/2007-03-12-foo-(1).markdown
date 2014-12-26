@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Foo (1)
@@ -10,6 +9,9 @@ image:
   feature:
 ---
 When I was in school once, I told my aunt that I did not want to eat food as I was tired.
+
 She yelled at me.
+
 I ate.
+
 Remembered for no reason.

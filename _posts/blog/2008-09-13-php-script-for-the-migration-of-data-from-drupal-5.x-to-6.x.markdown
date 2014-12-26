@@ -22,7 +22,7 @@ The only solution in cases where an upgrade is not possible, then, is the use of
 
 Before we begin, we need our PHP migration script to set certain variables:
 
-<php>
+{% highlight php %}
 < ?php
 set_time_limit(0);
 //MySQL globals
@@ -32,19 +32,19 @@ $mysql_pass = "pass";//Corresponding password
 $conn = mysql_connect($mysql_server,$mysql_user,$mysql_pass);//MySQL connection string
 //If your 5.x and 6.x installations reside on different servers, you will need two sets of server names, usernames, and passwords.
 ?>
-</php>
+{% endhighlight %}
 
 Also, in my scripts, tables prefixed “drupal.” and “timesnow.” belong to the 5.x and 6.x sites, respectively. Please change these accordingly for your databases.
 
 Lastly, these scripts are not optimized with regard to execution. So do not expect unified inserts to insert multiple tuples.
 
-<strong>User migration script:</strong>
+**User migration script:**
 
 This script, currently, only migrates users, e-mail addresses, uids, and passwords. It does not take care of the profile fields, which can be handled through other customized scripts as profile fields for each installation can differ. It does not import “usernode” content type either. This is coz’ usernodes are typically not required in 6.x, as user profile pages can be styled using tpl.php files themselves. Also, it is important that the uids from your orignal installtion be migrated to your current installation accurately coz' comments and nodes that we will migrate later on are linked to the users through these uids.
 
 There are absolutely no differences between the Users table in 5.x and 6.x. Both of them have the same 18 fields. So you can go ahead and use the following script without even thinking:
 
-<php>
+{% highlight php %}
 < ?php
 //first, we delete all users, if any, from the new table, except for the admin
 $query = "delete from timesnow.users where uid not in (0,1)";
@@ -63,19 +63,19 @@ while ($row = mysql_fetch_row($queryresult)) {
 }
 print $ucnt . " users inserted.";
 ?>
-</php>
+{% endhighlight %}
 
 An easy one that was, wasn’t it. Now, for some taxonomy.
 
-<em>[Note: You can even take a backup of the old Users table using mysqldump and restore it into the new one. Just make sure that you delete the insertion statements for UIDs 0 and 1.]</em>
+_[Note: You can even take a backup of the old Users table using mysqldump and restore it into the new one. Just make sure that you delete the insertion statements for UIDs 0 and 1.]_
 
-<strong>Migrating taxonomy:</strong>
+**Migrating taxonomy:**
 
 Now, this is the tricky part. Broken down, the minimal unit of taxonomy data in Drupal is a “term,” which has an associated “tid” (term id). Terms can be fixed taxonomies or free tags. Each node (if applicable) and forum post has an associated tid, which maps it to the term that the user has assigned to it. Therefore, it is imperative that this data is migrated accurately.
 
 The migration script for taxonomy will migrate the hierarchies, term-node relations, vocabularies, etc.:
 
-<php>
+{% highlight php %}
 < ?php
 $query = "truncate timesnow.vocabulary";
 mysql_query($query);
@@ -178,18 +178,18 @@ while ($row = mysql_fetch_row($queryresult)) {
 print "Term_node plugged in (" . $tncnt . " records entered).
 ";
 ?>
-</php>
+{% endhighlight %}
 
 You must’ve noticed that I am clearing out all associated tables before each insert block. This is coz’ it is important that the tids, tid-vid pairings, and tid-nid pairings be unique and as they are in the old database. Otherwise it will cause either of the following two problems: (a) terms won’t get attached to your nodes accurately or (b) the insert statements will throw primary key and/or unique key errors.
 This script is out-of-the-box too. With just the database name changes (from timesnow. to your database name), it can be run as it is.
 
 And now for the big Kahuna—migrating forum posts.
 
-<strong>Migrating forums:</strong>
+**Migrating forums:**
 
 Three parts to this script—forum topics have to be attached to their respective terms, forums posts have to go into the node table, and forum comments have to be migrated. The first part has already been taken care of in the previous script, so we are simply dealing with inserting comments and forum nodes. Again an out-of-box script, this one:
 
-<php>
+{% highlight php %}
 < ?php
 $cnt = 0;
 $commentcnt = 0;
@@ -277,7 +277,7 @@ while ($row = mysql_fetch_row($queryresult)) {
 print $forumcnt . " records updated into the forum table.
 ";
 ?>
-</php>
+{% endhighlight %}
 
 Certain table structures have changed in 6.x. But these scripts handle those too.
 
@@ -287,7 +287,7 @@ My content type was called “multi_user_blog.” You may have to change that fo
 
 Moving right along to the script, it is pretty straight forward:
 
-<php>
+{% highlight php %}
 < ?php
 $query = "truncate timesnow.node";
 mysql_query($query);
@@ -311,8 +311,8 @@ print "Forum table cleared.
 ";
 
 ?>
-<hr />
-Inserting multi_user_blogs
+
+# Inserting multi_user_blogs
 < ?php
 $query = "select * from drupal.node where type = 'multi_user_blog'";
 $noders = mysql_query($query);
@@ -380,7 +380,7 @@ print $cnt . " rows inserted.
 print $commentcnt . " comments inserted.
 ";
 ?>
-</php>
+{% endhighlight %}
 
 Studying this script can you give you some clues/insights to migrating content on your own site.
 I am working on an auto content migration script that will enable migration of all content types, associated tables, fields, etc.
@@ -391,4 +391,4 @@ In the meanwhile, let me know if I can improve on these OR if you have some scri
 
 If you do crack the auto content migration script for all CCK content types before me I will take you out for a meal, and throw in a free conversation, if you are in a can-buy-me-a-meal range. If you feel like my efforts deserve a meal, I am a complete meal slut. Oh, and why meals? Coz’ they are fun and desirable and leave one satisfied and contented.
 
-<em>That’s all folks!</em>
+_That’s all folks!_

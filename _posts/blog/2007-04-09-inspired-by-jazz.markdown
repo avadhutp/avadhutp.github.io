@@ -9,7 +9,8 @@ image:
   feature:
 ---
 
-<p style="text-align:center;"><img width="404" src="http://sentimentalminions.files.wordpress.com/2007/04/coltr1.jpg" alt="coltr1.jpg" height="345" /></p>
+![img](http://sentimentalminions.files.wordpress.com/2007/04/coltr1.jpg)
 
-<blockquote>You can play a shoestring if you are sincere.</blockquote>
-<p align="right">- John Coltrane</p>
+
+> You can play a shoestring if you are sincere.
+- John Coltrane

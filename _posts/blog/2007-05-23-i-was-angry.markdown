@@ -8,7 +8,7 @@ tags: []
 image:
   feature:
 ---
-<a href="http://sentimentalminions.files.wordpress.com/2007/05/liquid_stigmata.jpg" title="liquid_stigmata.jpg"><img border="1" align="bottom" src="http://sentimentalminions.files.wordpress.com/2007/05/liquid_stigmata.thumbnail.jpg" alt="liquid_stigmata.jpg" /></a>
+![liquids](http://sentimentalminions.files.wordpress.com/2007/05/liquid_stigmata.jpg)
 
 pencil, paper, Photoshop.
 <blockquote>"Fetch me the spirit, the son, and the father.

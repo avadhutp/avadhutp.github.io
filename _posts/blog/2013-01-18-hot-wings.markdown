@@ -7,7 +7,6 @@ excerpt:
 tags: []
 image:
   feature:
-date: 2014-08-08T15:39:55-04:00
 ---
 I moved to London three months ago. And ever since, I've been complaining about the lack of spicy food in this place. Last friday, Joao, Mat, and I went to [Noodle King](http://www.yelp.co.uk/biz/noodle-king-london-2): a good place by any standards. I ordered the hottest thing on the menu; it even had two chillies next to it's name. I trusted the chillies. Back in India, I'd never order anything with two chillies next to it's name.
 

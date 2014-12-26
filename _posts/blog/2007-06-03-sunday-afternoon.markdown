@@ -22,11 +22,11 @@ Riya: Shhh! She decided to hit everybody
 
 Me: Who?
 
-Riya: How many questions you ask <em>baba</em>? It has to be a cat only no? How can a monkey hit?
+Riya: How many questions you ask _baba_? It has to be a cat only no? How can a monkey hit?
 
 Me: oohh (people, the logic was irrefutable!)
 
-Riya: So she hit everyone. <strong>Wait!</strong> You want one story or four stories? I will tell you four stories. Ok? So the cat then ate a chapati. It was on the floor. So the monkey laughed.
+Riya: So she hit everyone. **Wait!** You want one story or four stories? I will tell you four stories. Ok? So the cat then ate a chapati. It was on the floor. So the monkey laughed.
 
 Me: (thinking to myself—this is going to be a long afternoon)
 
@@ -38,6 +38,6 @@ Riya: After that they...I will sleep now.
 
 Me: But. But, what about the story?
 
-Riya: How many questions you ask <em>baba</em>?
+Riya: How many questions you ask _baba_?
 
 She then proceeded to scramble out of the room to search for someone who'd ask lesser questions I guess—her Mum.
