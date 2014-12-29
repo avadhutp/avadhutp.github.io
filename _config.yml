@@ -12,7 +12,7 @@ url:
 # Jekyll configuration
 
 permalink:   /:titles/
-markdown:    kramdown
+markdown:    rdiscount
 highlighter: pygments
 sass:
   sass_dir: _sass
