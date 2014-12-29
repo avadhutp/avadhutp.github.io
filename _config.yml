@@ -9,7 +9,7 @@ url:
 
 # Jekyll configuration
 
-permalink:   /:titles/
+permalink:   /:title/
 markdown:    rdiscount
 highlighter: pygments
 sass:
