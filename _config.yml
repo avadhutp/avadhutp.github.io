@@ -5,12 +5,13 @@ locale: en_US
 description: I run. I eat. I sleep.
 logo: logo-panda.jpg
 search: true
-url: 
+comments: true
+url:
 
 
 # Jekyll configuration
 
-permalink:   /:title/
+permalink:   /:titles/
 markdown:    kramdown
 highlighter: pygments
 sass:
@@ -35,7 +36,7 @@ owner:
   name: Avadhut Phatarpekar
   avatar: bio-photo.jpg
   email: avadhut.p@gmail.com
-  disqus-shortname:
+  disqus-shortname: avadhut
   twitter: avadhutp
   facebook: avadhut.phatarpekar
   github: avadhutp
