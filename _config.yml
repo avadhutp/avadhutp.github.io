@@ -5,9 +5,7 @@ locale: en_US
 description: I run. I eat. I sleep.
 logo: logo-panda.jpg
 search: true
-comments: true
 url:
-
 
 # Jekyll configuration
 
