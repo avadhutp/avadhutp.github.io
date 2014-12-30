@@ -11,7 +11,7 @@ comments: true
 # Jekyll configuration
 
 permalink:   /:title/
-markdown:    rdiscount
+markdown:    kramdown
 highlighter: pygments
 sass:
   sass_dir: _sass
