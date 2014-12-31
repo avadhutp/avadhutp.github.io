@@ -25,12 +25,27 @@ And for the purpose of this post, the EWD of particular interest to me is [#654]
 To demonstrate how much more efficient this algorithm is compared to the linear Fibonacci algorithm given by $$F(n) = F(n-1) + F(n-2)$$, let's write a recursive function in PHP to calculate the nth Fibonacci number:
 
 {% highlight php %}
-function fibonacci_conventional($n){
+function fibonacci_conventional_recursive($n){
 	if($n == 0) return "Invalid input";
 	if($n == 1) return 0;
 	if($n == 2 || $n == 3) return 1;
 
 	return fibonacci_conventional($n-2) + fibonacci_conventional($n-1);
+}
+{% endhighlight %}
+
+This one's slow recursion and therefore has an exponential time complexity—`O(2^N)`. Let's try coming up with one that has linear time complexity—`O(N)`. I'll use iteration. (You can also use memoization in the above recursive approach):
+
+{% highlight php %}
+function fibonacci_conventional_iterative($n){
+    $prev1=0;
+    $prev2=1;
+    for($i=0; $i<$n; $i++) {
+        $savePrev1 = $prev1;
+        $prev1 = $prev2;
+        $prev2 = $savePrev1 + $prev2;
+    }
+    return $prev1;
 }
 {% endhighlight %}
 
@@ -54,4 +69,4 @@ function fibonacci_Djikstra($n){
 }
 {% endhighlight %}
 
-On my i5 Macbook pro, when I used `fibonacci_conventional()` to calculate the 1,000th Fibonacci number, it (predictably) timed out after 30 seconds. However, `fibonacci_dijkstra()` calculated the 1,000th Fibonacci number within less than 1 second.
+On my i5 Macbook pro, when I used `fibonacci_conventional_recursive()` to calculate the 1,000th Fibonacci number, it (predictably) timed out after 30 seconds. However, `fibonacci_dijkstra()` calculated the 1,000th Fibonacci number within less than 1 second.
