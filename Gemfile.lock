@@ -1,12 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (4.2.0)
-      i18n (~> 0.7)
-      json (~> 1.7, >= 1.7.7)
-      minitest (~> 5.1)
-      thread_safe (~> 0.3, >= 0.3.4)
-      tzinfo (~> 1.1)
     blankslate (2.1.2.4)
     celluloid (0.16.0)
       timers (~> 4.0.0)
@@ -21,7 +15,6 @@ GEM
     fast-stemmer (1.0.2)
     ffi (1.9.6)
     hitimes (1.2.2)
-    i18n (0.7.0)
     jekyll (2.5.3)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
@@ -46,10 +39,6 @@ GEM
     jekyll-sitemap (0.7.0)
     jekyll-watch (1.2.0)
       listen (~> 2.7)
-    jekyll_github_sample (0.1.1)
-      activesupport (~> 4.0)
-      jekyll (~> 2.0)
-    json (1.8.1)
     kramdown (1.5.0)
     liquid (2.6.1)
     listen (2.8.4)
@@ -57,7 +46,6 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     mercenary (0.3.5)
-    minitest (5.5.0)
     octopress (3.0.0.rc.24)
       jekyll (~> 2.0)
       mercenary (~> 0.3.2)
@@ -84,14 +72,11 @@ GEM
     redcarpet (3.2.2)
     safe_yaml (1.0.4)
     sass (3.4.9)
-    thread_safe (0.3.4)
     timers (4.0.1)
       hitimes
     titlecase (0.1.1)
     toml (0.1.2)
       parslet (~> 1.5.0)
-    tzinfo (1.2.2)
-      thread_safe (~> 0.1)
     yajl-ruby (1.1.0)
 
 PLATFORMS
@@ -100,6 +85,5 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-sitemap
-  jekyll_github_sample
   octopress (~> 3.0.0.rc.12)
   rdiscount
