@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Technical interviews
+title: The technical interview
 modified:
 categories: blog
 image:
