@@ -1,0 +1,20 @@
+// Github reference: Embedding files from GitHub.
+// -------------------------------------------------
+.github-sample-reference {
+    float: left;
+    width: 100%;
+    border: solid 1px #EFEFEF;
+    background: #ffffff;
+    font-size: 0.8em;
+   .author-info {
+       float: left;
+       padding: 5px;
+   }
+   .meta-info {
+       float: right;
+       padding: 5px;
+   }
+   a {
+     color: #428bca;
+   }
+}
