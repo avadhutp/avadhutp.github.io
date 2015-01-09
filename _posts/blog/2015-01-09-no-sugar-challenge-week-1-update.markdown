@@ -29,7 +29,7 @@ In the end, I found that just buying the raw, unprocessed items was easier. And 
 
 ## Snacking
 
-This was the toughest. Anything pre-made, which you could buy off of supermarket shelves, was not going to be sugar free, as I already found out previously. Even the healthy varities of almond/peanut butter you get in stores in _As nature intended_ or _Wholefoods_, contain glucose. So I stocked up on a lot of nuts. And made a lot of my own stuff—pesto, peanut butter, etc. But nuts are high in Selenium and fats, so you need to be careful with these. As I mentioned earlier, the lack of variety could lead me to overeat. That would be harmful, even with the good stuff. I made sure that I did not stockpile things at work. I ended up carrying portion-controlled sizes of these things everyday, just to remove any traces of temptation that might arise.
+This was the toughest. Anything pre-made, which you could buy off of supermarket shelves, was not going to be sugar free, as I already found out previously. Even the healthy varities of almond/peanut butter you get in stores in _As nature intended_ or _Wholefoods_, contain glucose. So I stocked up on a lot of nuts. And I plan to make a lot of my own stuff—pesto, peanut butter, etc. But nuts are high in Selenium and fats, so you need to be careful with these. As I mentioned earlier, the lack of variety could lead me to overeat. That would be harmful, even with the good stuff. I made sure that I did not stockpile things at work. I ended up carrying portion-controlled sizes of these things everyday, just to remove any traces of temptation that might arise.
 
 ## Withdrawl symptoms
 
