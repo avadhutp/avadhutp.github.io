@@ -3,7 +3,7 @@ layout: post
 title: January no-sugar challenge—Week 1 update
 modified:
 categories: blog
-excerpt:
+excerpt: My experience trying to go sugar-free for a month.
 tags: []
 image:
   feature: blog/sweets.jpg
