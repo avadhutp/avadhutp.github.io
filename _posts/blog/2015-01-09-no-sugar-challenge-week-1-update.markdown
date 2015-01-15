@@ -10,7 +10,7 @@ image:
 ---
 ## New year, new challenge
 
-I am fairly active. I like to run and I go bouldering quite often. But I do love my sugar. I can't help but binge of all sorts of sugary treats every single day. And with the new year starting, like all ill-fated, makeover-desiring individuals, I decides that I had to kick the habit. So I decided to go cold turkey—for the entire month of January I would not eat anything with added sugar. And it was proving harder than I ever imagined it could.
+I am fairly active. I like to run and I go bouldering quite often. But I do love my sugar. I can't help but binge of all sorts of sugary treats every single day. And, with the new year starting, like all ill-fated, makeover-desiring individuals, I decided that I had to kick the habit. So I decided to go cold turkey—for the entire month of January I would not eat anything with added sugar. And it was proving harder than I ever imagined.
 
 ## Shopping
 
@@ -25,11 +25,11 @@ In the end, I found that just buying the raw, unprocessed items was easier. And 
 
 ## Vegetables
 
-**Question:** What can you eat if you can't eat any forms of rice, pasta, or breads? Stumped? So was I. All my years of conditioning told me that these three were the mainstay of any meal. What could possibly be good enough alternative? I took to the Internet with this one. And it spewed out such abominations as cauliflower rice, zucchini pasta, and spelt bread (bleurgh). I could'nt accept vegetables to be a servicible substitute for any form or rice, pasta, or bread. But the sad truth is that there is no way out here. I had to stockpile on a lot of veggies.
+**Question:** What can you eat if you can't eat any form of rice, pasta, or breads? Stumped? So was I. All my years of conditioning told me that these three were the mainstay of any meal. What could possibly be a good enough alternative? I took to the Internet with this one. And it spewed out such abominations as cauliflower rice, zucchini pasta, and spelt bread (bleurgh). I couldn't accept vegetables to be a servicible substitute for any form or rice, pasta, or bread. But the sad truth is that there is no way out here. I had to stockpile on a lot of veggies.
 
 ## Snacking
 
-This was the toughest. Anything pre-made, which you could buy off of supermarket shelves, was not going to be sugar free, as I already found out previously. Even the healthy varities of almond/peanut butter you get in stores in _As nature intended_ or _Wholefoods_, contain glucose. So I stocked up on a lot of nuts. And I plan to make a lot of my own stuff—pesto, peanut butter, etc. But nuts are high in Selenium and fats, so you need to be careful with these. As I mentioned earlier, the lack of variety could lead me to overeat. That would be harmful, even with the good stuff. I made sure that I did not stockpile things at work. I ended up carrying portion-controlled sizes of these things everyday, just to remove any traces of temptation that might arise.
+This was the toughest. Anything pre-made, which you could buy off of supermarket shelves, was not going to be sugar free, as I already found out previously. <strikethrough>Even the healthy varities of almond/peanut butter you get in stores in _As nature intended_ or _Wholefoods_, contain glucose.</strikethrough> (**UPDATE:** _As Nature Intended_ does stock several brands of pure almond and peanute butter—no sugar, no salt, no oil. I settled for [Carley's organic whole almond butter](http://www.carleys.co.uk/index.php/products/organic-nut-butters/raw-nut-butters/26-products/nut-butters/raw-nut-butter/57-raw-almond-butter).) So I stocked up on a lot of nuts. And I plan to make a lot of my own stuff—pesto, peanut butter, etc. But nuts are high in Selenium and fats, so you need to be careful with these. As I mentioned earlier, the lack of variety could lead me to overeat. That would be harmful, even with the good stuff. I made sure that I did not stockpile things at work. I ended up carrying portion-controlled sizes of these things everyday, just to remove any traces of temptation that might arise.
 
 ## Withdrawl symptoms
 

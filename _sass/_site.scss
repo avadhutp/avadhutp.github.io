@@ -33,6 +33,9 @@ body {
 
 p {
 	@include font-size(18,yes,28);
+	strikethrough {
+		text-decoration: line-through;
+	}
 }
 
 li {
