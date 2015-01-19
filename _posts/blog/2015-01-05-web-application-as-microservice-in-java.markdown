@@ -18,7 +18,7 @@ The setup we run:
 
 **Step 1:** Have your `main` start an instance of the embedded Jetty on a port number you desire. In our organisation, we use ports `8XXX`. See `Startup.Java` ([→link](https://github.com/avadhutp/web-app-microservice/blob/master/src/main/java/io/github/avadhutp/webapprecipe/generic/StartUp.java)).
 
-**Step 2:** Package it as a fat JAR.
+**Step 2:** Package it.
 {% highlight bash %}
 mvn -V clean package
 {% endhighlight %}
