@@ -20,7 +20,7 @@ The setup we run:
 
 **Step 2:** Package it as a fat JAR.
 {% highlight bash %}
-mvn -V clean deploy
+mvn -V clean package
 {% endhighlight %}
 
 **Step 3:** Run/Deploy the JAR on your infrastructure box. We use Fabric.
