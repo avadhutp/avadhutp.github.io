@@ -1,0 +1,5 @@
+Two of my closest friends are very passionate about making our planet Earth a better place to live in. They've invested their entire lives in studying how they can do this, and now work in capacities that allow them to effec this directly. One of them works in small villages all over India and helps people by introducing them to modern, sustainable alternatives that could better their lives—smokeless stoves for cooking, solar panels for electricity, etc. The other is a clean energy specialist currently working on bringing solar energy to remote villages in India. Both of them made some pretty huge sacrifices in their lives to get to where they are today: they gave my lucrative careers in big firms, worked on meagre salaries in very austere conditions, etc.
+
+I feel deeply for the issues that they work on, but I cannot effect them as directly as they can.
+
+https://launiusr.wordpress.com/2012/02/08/why-explore-space-a-1970-letter-to-a-nun-in-africa/?
