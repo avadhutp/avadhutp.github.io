@@ -33,3 +33,6 @@ The incident, or rather the race, I want to talk about is the 1995 Ledville 100.
 When asked to comment on her loss, Ann said "sometimes it takes a woman to bring the best out in a man." Ann's women's record set during the 1995 Ledville race (18:06:24) has remained unbeaten.
 
 Side note: When Juan Herrera finally passed Ann at mile 15, Ann was giving it everything. But Juan just smiled and glided past her effortlessly. His joy almost made Ann quit the race. Juan also set the first for the race: he ducked under the tape, rather than through it, because he had never seen one before.
+
+# Anders Jenius Smedsvik
+He typifies the saying _your're only as old as you think you are_. Yes, your body will give up when it's time comes. But it does not have to be a slow gradual process that keeps you feeling _old_ for a large part of your life. And, as usual, sailing stories are the best. Read more [here](http://www.dagbladet.no/magasinet/the-final-journeynbspof-anders-j-smedsvik/62942815).
